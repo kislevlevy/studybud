@@ -41,8 +41,8 @@ A fully responsive forum application for programmers to discuss different subjec
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/kislevlevy/studybud
+   cd studybud
    ```
 
 2. **Create and Activate Virtual Environment:**
@@ -73,9 +73,9 @@ A fully responsive forum application for programmers to discuss different subjec
    ```
 
 7. **Access the Application:**
-   - API Base URL: `http://127.0.0.1:8000/api`
-   - Admin Panel: `http://127.0.0.1:8000/admin`
-   - Site: `http://127.0.0.1:8000`
+   - API Base URL: `http://localhost:8000/api`
+   - Admin Panel: `http://localhost:8000/admin`
+   - Site: `http://localhost:8000`
 
 ## API Documentation
 
