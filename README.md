@@ -8,9 +8,9 @@ A fully responsive forum application for programmers to discuss different subjec
 
 ## Technologies Used
 
-| Frontend | Backend                              | Deployment   |
-|----------|--------------------------------------|--------------|
-| ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django REST Framework](https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) | ![Render](https://img.shields.io/badge/Render-0466C8?style=for-the-badge&logo=render&logoColor=white) | 
+| Frontend                                                                                                                                                                                                                                                                                                            | Backend                                                                                                                                                                                                                                                                                                                                                                                                                             | Deployment                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django REST Framework](https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) | ![Render](https://img.shields.io/badge/Render-0466C8?style=for-the-badge&logo=render&logoColor=white) |
 
 ## Features
 
@@ -40,34 +40,40 @@ A fully responsive forum application for programmers to discuss different subjec
 ## Installation and Setup
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/kislevlevy/studybud
    cd studybud
    ```
 
 2. **Create and Activate Virtual Environment:**
+
    ```bash
    python -m venv venv
    venv\Scripts\activate
    ```
 
 3. **Install Requirements:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Run Database Migrations:**
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
 
 5. **Create Superuser:**
+
    ```bash
    python manage.py createsuperuser
    ```
 
 6. **Run the Development Server:**
+
    ```bash
    python manage.py runserver
    ```
