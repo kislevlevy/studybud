@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "default-secret-key")
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
 
 # Get frontend and backend URLs from environment
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
+FRONTEND_URL = os.getenv("FRONTEND_URL", "localhost:8000")
 ALLOWED_HOSTS = [FRONTEND_URL, "localhost", "127.0.0.1"]
 
 

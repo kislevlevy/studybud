@@ -18,5 +18,10 @@ services:
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
+      - key: DEBUG
+        value: false
+      - key: CORS_ALLOW_ALL_ORIGINS
+        value: false
       - key: WEB_CONCURRENCY
         value: 4
+      - key: FRONTEND_URL
